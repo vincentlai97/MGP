@@ -1,0 +1,51 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context = ".mainmenu">
+
+    <Button
+    android:id="@+id/btn_start"
+
+    android:text="Start"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:background="@drawable/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp" />
+
+    <Button
+        android:id="@+id/btn_help"
+
+        android:text="Help"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/btn_start"
+        android:layout_alignStart="@+id/btn_options" />
+
+    <Button
+        android:id="@+id/btn_options"
+
+        android:text="Options"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_below="@+id/btn_help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+</RelativeLayout>
